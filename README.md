@@ -3,10 +3,6 @@
 An intelligent web application designed to provide health-related assistance. This tool allows users to find cost-effective alternatives for brand-name medicines and analyze their symptoms to receive preliminary suggestions for over-the-counter (OTC) treatments.
 
 
-## Live Demo
-(Note: The application is hosted on a free tier and may take a moment to wake up from sleep.)
-
-
 ## Features
 - Medicine Alternative Finder: Searches a database of over 40,000 medicines to find therapeutically equivalent alternatives based on their active chemical composition.
 - Prescription OCR Analysis: Users can upload an image of a prescription, and the application uses the Google Gemini Vision API to automatically extract the medicine name for searching.
@@ -42,7 +38,6 @@ To run this project locally, follow these steps:
 - Python 3.9+
 - Git and Git LFS installed on your system.
 
-
 ### Installation
 **1. Clone the repository:**
 
@@ -74,7 +69,6 @@ pip install -r requirements.txt
 2. Add your API key to this file in the following format:
 
 API_KEY=AIzaSy...your_secret_key_here...
-
 
 ### Usage
 Once the setup is complete, you can run the application with the following command:
